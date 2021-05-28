@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="12dp"
+
+    android:background="#1439A6">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="ClickMenu"
+        android:src="@drawable/ic_menu"
+        />
+
+   <SearchView
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:layout_marginTop="8dp"
+       android:queryHint="Search...."
+       android:id="@+id/searchView"
+       android:elevation="5dp"
+       android:layout_margin="10dp"
+       android:background="@drawable/bg_round"
+       />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="ClickFilter"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/filterrr" />
+
+
+</LinearLayout>
